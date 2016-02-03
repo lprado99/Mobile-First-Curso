@@ -1,0 +1,9 @@
+<div class="galery">
+	<div  ng-repeat="cellphone in cellphones" class="cellphone">
+		<img class="img-responsive img-galery" src="{{cellphone.image}}">
+		<h1> {{cellphone.model}}</h1>
+		<h2> {{cellphone.precio}}</h2>
+		<p> {{cellphone.caracteristicas}}</p>
+		<a class="button button-block button-dark" ng-href="#galery/cellphone{{cellphone.id}}">Ver!</a>
+	</div>
+</div>

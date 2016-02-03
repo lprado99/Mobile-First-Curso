@@ -1,0 +1,41 @@
+html, body {
+    height: 100%;
+}
+.img-responsive{
+	margin: 0 auto;
+	display:block;
+}
+.icon-menu{
+	width:80%;
+	margin-top: 27.5%;
+	margin-bottom: 27.5%;
+	max-width:176px;
+}
+
+.img-galery{
+	width:80%;
+	margin-top: 5%;
+}
+.cellphone h1, .cellphone h2, .cellphone h3, .cellphone h4, .cellphone p{
+	text-align:center;
+} 
+.galery .cellphone{
+	border-bottom: solid 1px lightgray;
+}
+.scroll-content {
+  /*display: table !important;
+  width: 100% !important;
+  height: calc(100% - 93px); !important;
+  height: -o-calc(100% - 93px); 
+  height: -webkit-calc(100% - 93px); 
+  height: -moz-calc(100% - 93px); */
+}
+.scroll {
+  /*display: table-cell;
+  vertical-align: middle;
+  text-align: center;*/
+}
+/*Aliniar texto de la lista a la derecha*/
+.align-right{
+	text-align:right
+}
