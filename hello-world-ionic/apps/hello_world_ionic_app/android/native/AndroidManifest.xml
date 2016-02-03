@@ -24,7 +24,9 @@
                 <action android:name="com.hello_world_ionic_app.hello_world_ionic_app.NOTIFICATION"/>  
                 <category android:name="android.intent.category.DEFAULT"/> 
             </intent-filter> 
-        </activity>  
+        </activity>
+        <activity android:name=".HelloNative"></activity>
+         
         <!-- Preference Activity  -->  
         <activity android:name="com.worklight.common.WLSettingActivity" android:label="Worklight Settings"></activity>  
         <!-- UI Activity for displaying native dialogs  -->  
